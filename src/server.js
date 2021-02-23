@@ -5,7 +5,8 @@ const cors = require('cors');
 const app = express();
 app.use(cors());
 
-var upload = multer({ dest: '../public/uploads/' });
+// leaving this here in case i add a file upload
+const upload = multer({ dest: '../public/uploads/' });
 
 // keys
 const operatorAccount = '';
