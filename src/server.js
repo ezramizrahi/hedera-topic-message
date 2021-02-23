@@ -8,8 +8,8 @@ app.use(cors());
 var upload = multer({ dest: '../public/uploads/' });
 
 // keys
-const operatorAccount = '0.0.368448';
-const operatorPrivateKey = '302e020100300506032b65700422042045cc6cee2b457e9390c82f6e133f729d570d88f1f570084fef934f691beb490f';
+const operatorAccount = '';
+const operatorPrivateKey = '';
 if (operatorAccount == null || operatorPrivateKey == null ) {
   throw new Error('Environment variables operatorAccount and operatorPrivateKey must be present');
 };
