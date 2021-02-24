@@ -1,6 +1,6 @@
 <br />
 <p align="center">
-  <h3 align="center">Hedera Hashgraph Topic Creation and Message Publishing Test</h3>
+  <h3 align="center">Hedera Consensus Service - Topic Creation and Message Publishing</h3>
 </p>
 
 
@@ -17,9 +17,9 @@
 
 ## About
 
-Testing part of the [Hedera Hashgraph](https://docs.hedera.com/guides/docs/sdks) Consensus Service. Submit form data using React and an Express server. On upload, a topic is created along with a message published to that topic.
+Testing part of the [Hedera](https://docs.hedera.com/guides/docs/sdks) Consensus Service. Submit form data using React and an Express server. On upload, a topic is created along with a message published to that topic.
 
-Within the Hedera Hashgraph Consensus Service, client applications submit a message (a string of bytes) and give the message a topic (an ID number). This message can include relevant details of a transaction, such as a bid on a financial asset, or in this case, confirmation that a form has been submitted. The topic (the ID) will allow messages with the same topic to be classified together. Read more here: [Hedera Hashgraph Consensus Service White Paper](https://hedera.com/hh-consensus-service-whitepaper.pdf).
+Within the Hedera Consensus Service, client applications submit a message (a string of bytes) and give the message a topic (an ID number). This message can include relevant details of a transaction, such as a bid on a financial asset, or in this case, confirmation that a form has been submitted. The topic (the ID) will allow messages with the same topic to be classified together. Read more here: [Hedera Hashgraph Consensus Service White Paper](https://hedera.com/hh-consensus-service-whitepaper.pdf).
 
 ### Built With
 
